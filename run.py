@@ -10,7 +10,7 @@ def calculate_sha256(filepath):
     return sha256_hash.hexdigest()
 
 def main():
-    origin_dir = "originmaps"
+    origin_dir = "maps7"
     output_dir = "outmaps"
 
     if not os.path.exists(origin_dir):
